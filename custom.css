@@ -1,0 +1,11 @@
+pre {width: 60%;
+    overflow: visible;
+}
+pre::before{
+        content: attr(data-lang);
+        position: relative;
+        top: -1em;
+
+    }
+
+    h1 {font-family: helvetica, verdana, sans-serif; font-weight: 300; color: #71B64B; text-align: center;}
