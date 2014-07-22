@@ -1,5 +1,5 @@
-body {text-align: center;}
-pre {width: 60%;
+body {text-align: center; width: 60%; margin: 0 auto;}
+pre {
     overflow: visible;
 }
 pre::before{
@@ -28,3 +28,5 @@ pre::before{
 	text-shadow: 0 1px 1px rgba(0,0,0,.4);
 	width: auto;
 	}
+
+.left {text-align: left;}
